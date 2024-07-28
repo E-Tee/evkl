@@ -434,6 +434,10 @@ h1, h2, h3, h4, h5, h6, p {
   transition-property: opacity, outline, outline-offset;
   transition-duration: .1s;
   transition-timing-function: ease-in-out;
+  -moz-transition-property: opacity, outline, outline-offset;
+  -moz-transition-duration: .1s;
+  -moz-transition-timing-function: ease-in-out;
+  ;
 }
 
 .footer__nav__link:focus::before {
